@@ -1,0 +1,16 @@
+{
+  "name": "@anzusystems-sandbox/release-tools-sandbox",
+  "version": "1.0.0",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anzusystems/release-tools-sandbox.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node check.mjs"
+  }
+}
